@@ -1,0 +1,45 @@
+.jobCon{
+    display: flex;
+align-items: center;
+border: 1px solid #EFEFF0;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+margin: 40px 0px;
+padding: 5px;
+    .flex1{
+        flex: 2;
+        text-align: center;
+        img{
+            width: 80px;
+        }
+    }
+    .flex2{
+        flex: 6;
+        .jobTitle{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .jobCom{
+            font-size: 12px;
+            color: #5F5858;
+
+        }
+        .flexinside{
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .flex3{
+        flex: 2;
+        button{
+            border: none;
+            color: white;
+            background-color: #111111;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}

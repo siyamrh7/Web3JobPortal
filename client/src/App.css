@@ -1,0 +1,147 @@
+.page{
+    min-height: 80vh;
+}
+.navButton{
+    display: flex !important;
+}
+
+@media screen and (max-width: 1250px) {
+    .container {
+      width: 900px !important;
+    }
+  }
+
+
+ @media screen and (max-width: 900px) {
+    .container {
+      width: 600px !important;
+    }
+    .bannerSearch > input{
+       zoom: 0.8;
+       width: 250px !important;
+    }
+    .bannerSearch button{
+        font-size: 15px !important;
+        padding: 9px 12px !important;
+        font-weight: lighter !important;
+    }
+    .bannerMainText{
+        font-size: 30px !important;
+    }
+    .bannerText{
+        width: 350px !important;
+    }
+    .technology{
+        margin: 10px !important;
+        padding: 13px 25px !important;
+    }
+    .technology img{
+        width: 50px !important;
+    }
+    .technology p{
+       font-size: 14px !important;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .container {
+      width: 350px !important;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .navLogo{
+        font-size: 18px !important;
+    }
+    .btnConnect{
+        font-size: 14px !important;
+    }
+    .postJobBtn{
+        font-size: 12px !important;
+        padding: 8px 12px !important;
+    }
+    .bannerMainText{
+        font-size: 16px !important;
+        margin-bottom: 0px !important;
+    }
+    .bannerText{
+        width: 200px !important;
+        top: 0% !important;
+    }
+    .bannerLightText{
+        font-size: 12px !important;
+        line-height: 15px !important;
+        margin-bottom: 5px !important;
+        margin-top: 5px !important;
+
+    }
+    .bannerSearch > input{
+        zoom: 0.6;
+        width: 180px !important;
+     }
+     .bannerSearch button{
+         font-size: 11px !important;
+         padding: 6px 10px !important;
+         font-weight: lighter !important;
+     }
+     .bannerSearch{
+        margin-top: 0% !important;
+     }
+     .jobCon .flex1 img{
+        width: 40px !important;
+    }
+    .jobTitle{
+        font-size: 12px !important;
+    }
+    .jobCom{
+        font-size: 10px !important;
+    }
+    .flexinside p{
+        font-size: 10px !important;
+        margin: 0px !important;
+    margin-bottom: 5px !important;
+    }
+    .jobCon .flex3 button {
+        padding: 6px 8px !important;
+        font-size: 10px !important;
+        font-weight: bold !important;
+    }
+    
+    .technology{
+        margin: 10px !important;
+        padding: 8px 15px !important;
+    }
+    .technology img{
+        width: 40px !important;
+    }
+    .technology p{
+       font-size: 12px !important;
+    }
+
+
+/* Details */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+  }
+     
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px !important;
+            font-size: 14px !important;
+          }
+          
+    .detailsHead p{
+        font-size: 14px !important;
+    }
+    .midTitle{
+        font-size: 16px !important;
+    }
+    .ppc{
+        font-size: 16px !important;
+        margin: 20px 0px !important;
+    }
+  }

@@ -1,0 +1,258 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x384AE2f39694dF2ff7a4547C7422BA96692384Af",
+    "txHash": "0x8b6c876a93b12975b1d5bd1e1ca5fdba6824868c4bc068518c546be37d008f06"
+  },
+  "proxies": [
+    {
+      "address": "0xB352199082C5C32f766d7Ffa81c6a2a8D8413f05",
+      "txHash": "0xb38c0710bc82cc455db94f0dedd60ef9baa35caafd5271f98b83b73c2082bca1",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "ff921ac7a74e6364e2c4599cea0820d3b2cd98b97e5351b50cbf6fc7c876ef40": {
+      "address": "0x02A036dE0F2d2449bd65512d3B2a9861dE12fCb7",
+      "txHash": "0xc93184ed49df899f4f2636d4e465fd85e2cbd7863d8d33fb85737757f9d5b36e",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "jobDatas",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_struct(jobData)26_storage)dyn_storage",
+            "contract": "JobPortal",
+            "src": "contracts/JobPortalContract.sol:21"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address_payable",
+            "contract": "JobPortal",
+            "src": "contracts/JobPortalContract.sol:22"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_struct(jobData)26_storage)dyn_storage": {
+            "label": "struct JobPortal.jobData[]",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(jobData)26_storage": {
+            "label": "struct JobPortal.jobData",
+            "members": [
+              {
+                "label": "companyName",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "companyWeb",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "jobTitle",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "jobCategory",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "jobType",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "jobLocation",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "jobSalary",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "jobExperience",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "jobQualification",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "applicaionLink",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "creator",
+                "type": "t_address_payable",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "deposit",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "a2f601c3edb28cbbcf59ee6a87c7ecc94c1f75e43406485c07cefa2ba6d23581": {
+      "address": "0x34E25E880c33673d3a86a634D0EaB5200c71C8a9",
+      "txHash": "0x7b44a4b48096b16d945a751ceccb5106ea98430644bf4ca794f4b2bb09a2d739",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "jobDatas",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_struct(jobData)26_storage)dyn_storage",
+            "contract": "JobPortal",
+            "src": "contracts/JobPortalContract.sol:21"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address_payable",
+            "contract": "JobPortal",
+            "src": "contracts/JobPortalContract.sol:22"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_struct(jobData)26_storage)dyn_storage": {
+            "label": "struct JobPortal.jobData[]",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(jobData)26_storage": {
+            "label": "struct JobPortal.jobData",
+            "members": [
+              {
+                "label": "companyName",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "companyWeb",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "jobTitle",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "jobCategory",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "jobType",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "jobLocation",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "jobSalary",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "jobExperience",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "jobQualification",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "applicaionLink",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "creator",
+                "type": "t_address_payable",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "deposit",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
